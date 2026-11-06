@@ -1,0 +1,8 @@
+name: keln-provider
+kind: model-provider
+version: 1.0.0
+description: Keln as a Hermes model provider, with open models through an OpenAI-compatible API.
+author: Keln
+requires_hermes: ">=0.22.6"
+requires_env:
+  - KELN_API_KEY
