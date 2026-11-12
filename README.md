@@ -38,8 +38,8 @@ hermes plugins install keln-provider
 ## Models
 
 Hermes reads the live catalog from `https://api.keln.ai/v1/models`, which also publishes each
-model's context window and input types. If that request fails, the picker shows this list of models
-with tool calling:
+model's context window and input types. If that request fails, the picker shows this short backup
+list:
 
 | Model | Input |
 |---|---|
